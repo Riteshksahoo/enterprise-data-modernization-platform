@@ -198,7 +198,5 @@ In Progress:
 
 ## Author
 
-Ritesh Sahoo
-
-GitHub:
+Ritesh Kumar Sahoo
 
