@@ -1,0 +1,36 @@
+[
+  {
+    "event_id": 1,
+    "event_name": "Christmas Sale",
+    "event_type": "Promotion",
+    "event_date": "2025-12-21",
+    "region": "West",
+    "products": [
+      {
+        "product_id": "FUR-BO-10001798",
+        "discount": 20
+      },
+      {
+        "product_id": "FUR-CH-10000454",
+        "discount": 15
+      }
+    ]
+  },
+  {
+    "event_id": 2,
+    "event_name": "Year End Clearance",
+    "event_type": "Promotion",
+    "event_date": "2025-12-22",
+    "region": "East",
+    "products": [
+      {
+        "product_id": "OFF-ST-10000760",
+        "discount": 25
+      },
+      {
+        "product_id": "OFF-LA-10000240",
+        "discount": 30
+      }
+    ]
+  }
+]

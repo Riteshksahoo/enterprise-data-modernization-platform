@@ -1,0 +1,11 @@
+.venv/
+.venv-1/
+**pycache**/
+*.pyc
+.env
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+*.xlsx
+screenshots/
