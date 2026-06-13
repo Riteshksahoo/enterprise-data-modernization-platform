@@ -15,7 +15,8 @@ Raw Data Sources
 * Superstore Dataset (Excel)
 * Marketing Events (JSON)
 
-↓
+|
+|
 
 Python Data Processing
 
@@ -23,7 +24,8 @@ Python Data Processing
 * CSV Creation
 * JSON Creation
 
-↓
+|
+|
 
 Snowflake Ingestion
 
@@ -31,7 +33,8 @@ Snowflake Ingestion
 * File Formats
 * COPY INTO
 
-↓
+|
+|
 
 Raw Layer
 
@@ -41,14 +44,16 @@ Raw Layer
 * INVENTORY_RAW
 * STORE_EVENTS_RAW
 
-↓
+|
+|
 
 Transformation Layer
 
 * SALES_CURATED
 * EVENT_PRODUCTS_CURATED
 
-↓
+|
+|
 
 Automation
 
@@ -56,7 +61,8 @@ Automation
 * Streams
 * Tasks
 
-↓
+|
+|
 
 Analytics Layer (Upcoming)
 
@@ -64,7 +70,8 @@ Analytics Layer (Upcoming)
 * KPI Tables
 * Business Metrics
 
-↓
+|
+|
 
 Visualization
 
@@ -85,36 +92,6 @@ Visualization
 * GitHub
 * Power BI
 * Streamlit
-
----
-
-## Project Structure
-
-enterprise-data-modernization-platform/
-
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── json/
-│
-├── scripts/
-│   └── dataset_generator.py
-│
-├── sql/
-│   ├── ingestion/
-│   ├── procedures/
-│   ├── streams/
-│   ├── tasks/
-│   └── json/
-│
-├── snowpark/
-├── streamlit/
-├── powerbi/
-├── docs/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 ---
 
@@ -174,25 +151,6 @@ Contains promotional campaign information and product discounts.
 * VARIANT Data Type
 * LATERAL FLATTEN
 * ELT Architecture
-
----
-
-## Current Status
-
-Completed:
-
-* Data Generation
-* Snowflake Ingestion
-* ELT Pipeline
-* JSON Processing
-* Stream & Task Automation
-
-In Progress:
-
-* Snowpark
-* Analytics Layer
-* Streamlit Dashboard
-* Power BI Dashboard
 
 ---
 
